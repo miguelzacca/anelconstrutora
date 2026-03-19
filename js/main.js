@@ -7,7 +7,7 @@
   'use strict';
 
   // ─── Register GSAP plugins ─────────────────────────────────────
-  gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
   // ─── Custom Cursor ─────────────────────────────────────────────
   const cursorDot = document.getElementById('cursorDot');
