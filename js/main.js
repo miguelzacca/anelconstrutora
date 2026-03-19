@@ -291,7 +291,7 @@
     new Swiper('#devSwiper', {
       slidesPerView: 'auto',
       centeredSlides: true,
-      loop: true,
+      loop: false,
       speed: 800,
       grabCursor: true,
       effect: 'coverflow',
