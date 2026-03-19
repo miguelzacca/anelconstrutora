@@ -291,7 +291,7 @@
     new Swiper('#devSwiper', {
       slidesPerView: 'auto',
       centeredSlides: true,
-      loop: false, // Loop true breaks 3D Coverflow when you only have 4 items
+      loop: true,
       speed: 800,
       grabCursor: true,
       effect: 'coverflow',
